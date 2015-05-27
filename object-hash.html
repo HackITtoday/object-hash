@@ -4,7 +4,7 @@
   <script type="text/javascript">
     Polymer({
       publish: {
-        hashtable: new hash.HashTable,
+        hashtable: new objectHash.HashTable,
         hash: function (v) {
           return objectHash.sha(v);
         }
