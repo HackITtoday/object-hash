@@ -6,7 +6,7 @@
       publish: {
         hashtable: new hash.HashTable,
         hash: function (v) {
-          hash(v);
+          return objectHash.sha(v);
         }
       }
     });
