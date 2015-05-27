@@ -1,0 +1,12 @@
+<link rel="import" href="../polymer/polymer.html">
+<polymer-element name="object-hash" attributes="hashtable">
+  <script type="text/javascript" src="dist/object_hash.js"></script>
+  <script type="text/javascript">
+    Polymer({
+      publish: {
+        hashtable: new hash.HashTable,
+        hash: hash
+      }
+    });
+  </script>
+</polymer-element>
