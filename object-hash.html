@@ -5,7 +5,9 @@
     Polymer({
       publish: {
         hashtable: new hash.HashTable,
-        hash: hash
+        hash: function (v) {
+          hash(v);
+        }
       }
     });
   </script>
